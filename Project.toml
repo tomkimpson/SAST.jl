@@ -1,0 +1,13 @@
+name = "SAST"
+uuid = "e8e75afb-9838-4ea8-9155-260f49d80ab2"
+authors = ["Tom Kimpson <tomkimpson@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
